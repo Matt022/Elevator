@@ -4,5 +4,4 @@ let elevator = {
 }
 
 
-fillTheQuestionsAndAnswers(randomQuestion)
 

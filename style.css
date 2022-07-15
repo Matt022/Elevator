@@ -98,16 +98,33 @@ main {
 
 .elevator .lift {
     display: flex;
+    flex-direction: column;
+    align-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.elevator .lift div {
+.elevator .lift .number-holder {
     display: flex;
     padding: 10px 20px;
     border-radius: 58px;
     background: linear-gradient(145deg, #e6e6e6, #ffffff);
     box-shadow:  12px 12px 11px #6b6b6b,
              -12px -12px 11px #ffffff;
+    margin: 65px;
+}
+
+.elevator .lift .next-question {
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 58px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    margin: 65px;
+}
+
+.elevator .lift .next-question:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .elevator .lift h1.numbers {
